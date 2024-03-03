@@ -1,0 +1,88 @@
+/* Styles pour le tableau de bord du compte client */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.actions,
+.stats {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.actions h2,
+.stats h2 {
+    margin-top: 0;
+}
+
+.actions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.actions ul li {
+    margin-bottom: 10px;
+}
+
+.actions ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.actions ul li a:hover {
+    color: #555;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+}
+
+.stats > div {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.orders-made {
+    background-color: #ffc107; /* Jaune */
+}
+
+.orders-received {
+    background-color: #28a745; /* Vert */
+}
+
+.orders-not-received {
+    background-color: #dc3545; /* Rouge */
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
